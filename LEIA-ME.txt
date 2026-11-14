@@ -1,0 +1,25 @@
+SITE INSTITUCIONAL — 62.198.149 VITOR HUGO MESSIAS SOARES
+
+ARQUIVOS
+- index.html: página inicial
+- sobre.html: apresentação institucional
+- politica-privacidade.html: política de privacidade
+- termos-uso.html: termos de uso
+- css/style.css: estilos personalizados
+- js/main.js: ano automático no rodapé
+- assets/: imagens enviadas
+
+COMO VISUALIZAR
+Abra index.html no navegador. Para publicar, envie a pasta inteira para a hospedagem, mantendo a estrutura de diretórios.
+
+TECNOLOGIAS
+HTML5, CSS3, Bootstrap 5.3.3 e Bootstrap Icons (carregados por CDN). É necessária conexão à internet para carregar os recursos do CDN.
+
+ANTES DE ANUNCIAR NO GOOGLE ADS
+1. Revise a Política de Privacidade para refletir exatamente os dados e tecnologias que a empresa utiliza.
+2. Se instalar Google tag, Google Analytics, pixels, cookies de publicidade, formulário ou ferramenta de chat, atualize a política e implemente os avisos/consentimentos aplicáveis.
+3. Confirme que telefone, e-mail, endereço, CNPJ, atividade e disponibilidade dos serviços estão corretos.
+4. As imagens são ilustrativas e não afirmam que os veículos mostrados pertencem à empresa.
+5. Os textos legais são modelos iniciais e não substituem revisão jurídica.
+
+Observação: a página apresenta canais de contato, mas não oferece checkout, pagamento ou contratação automática online.

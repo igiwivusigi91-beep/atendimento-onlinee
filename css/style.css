@@ -1,0 +1,63 @@
+:root {
+  --navy: #0b1f33;
+  --navy-2: #123653;
+  --orange: #ff8a24;
+  --orange-dark: #e87312;
+  --ink: #172b3d;
+  --muted: #617487;
+  --pale: #f3f7fa;
+  --line: #e3ebf1;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { font-family: "Inter", "Segoe UI", Arial, sans-serif; color: var(--ink); line-height: 1.65; }
+a { text-decoration: none; }
+.navbar { background: rgba(8, 27, 45, .97); }
+.brand-mark { width: 42px; height: 42px; display:inline-grid; place-items:center; border-radius:12px; background:var(--orange); color:var(--navy); font-size:1.2rem; }
+.navbar-brand { font-weight:800; letter-spacing:-.4px; }
+.nav-link { color:rgba(255,255,255,.82)!important; font-weight:600; }
+.nav-link:hover, .nav-link.active { color:var(--orange)!important; }
+.btn-orange { background:var(--orange); color:var(--navy); border:0; font-weight:800; padding:.85rem 1.25rem; border-radius:10px; }
+.btn-orange:hover { background:#ffa34e; color:var(--navy); }
+.btn-outline-light { border-radius:10px; padding:.8rem 1.2rem; font-weight:700; }
+.hero { min-height:650px; display:flex; align-items:center; color:white; background:linear-gradient(90deg,rgba(5,20,34,.94) 0%,rgba(5,20,34,.78) 48%,rgba(5,20,34,.18) 100%),url('../assets/caminhao-destaque.jpeg') center/cover no-repeat; padding:145px 0 90px; }
+.hero-kicker { color:#ffc18a; font-weight:800; letter-spacing:2px; text-transform:uppercase; font-size:.78rem; }
+.hero h1 { font-size:clamp(2.7rem,6vw,5rem); line-height:1.02; letter-spacing:-2px; font-weight:900; max-width:780px; }
+.hero p { color:rgba(255,255,255,.82); font-size:1.15rem; max-width:620px; }
+.section-pad { padding:88px 0; }
+.section-soft { background:var(--pale); }
+.eyebrow { color:var(--orange-dark); text-transform:uppercase; letter-spacing:1.7px; font-size:.76rem; font-weight:900; }
+.section-title { color:var(--navy); font-weight:900; letter-spacing:-1px; font-size:clamp(2rem,4vw,3rem); line-height:1.12; }
+.lead-muted { color:var(--muted); max-width:720px; }
+.feature-card { background:white; border:1px solid var(--line); border-radius:18px; padding:28px; height:100%; box-shadow:0 12px 35px rgba(15,44,67,.045); }
+.feature-icon { width:52px; height:52px; display:grid; place-items:center; background:#fff1e4; color:var(--orange-dark); border-radius:15px; font-size:1.35rem; margin-bottom:18px; }
+.feature-card h3 { font-weight:850; color:var(--navy); font-size:1.15rem; }
+.feature-card p { color:var(--muted); margin:0; }
+.image-panel { border-radius:22px; overflow:hidden; min-height:340px; box-shadow:0 20px 50px rgba(10,34,54,.13); }
+.image-panel img { width:100%; height:100%; min-height:340px; object-fit:cover; }
+.photo-card { overflow:hidden; border-radius:18px; background:white; border:1px solid var(--line); height:100%; }
+.photo-card img { width:100%; height:220px; object-fit:cover; }
+.photo-card .caption { padding:20px; }
+.photo-card h3 { font-size:1.08rem; font-weight:850; color:var(--navy); }
+.cta-band { background:linear-gradient(120deg,var(--navy),var(--navy-2)); color:white; border-radius:24px; padding:42px; }
+.cta-band p { color:rgba(255,255,255,.75); }
+.page-hero { background:linear-gradient(120deg,var(--navy),var(--navy-2)); color:white; padding:145px 0 65px; }
+.page-hero h1 { font-weight:900; font-size:clamp(2.5rem,5vw,4rem); letter-spacing:-1.5px; }
+.content-card { background:white; border:1px solid var(--line); border-radius:18px; padding:clamp(24px,4vw,44px); box-shadow:0 12px 35px rgba(15,44,67,.04); }
+.content-card h2 { color:var(--navy); font-weight:850; font-size:1.35rem; margin-top:2rem; }
+.content-card h2:first-child { margin-top:0; }
+.content-card p, .content-card li { color:#52677a; }
+.notice { border-left:4px solid var(--orange); background:#fff7ef; padding:16px 18px; border-radius:8px; color:#6c4a2e; }
+footer { background:#071827; color:white; padding:58px 0 24px; }
+footer h5 { font-weight:850; }
+footer p, footer li { color:rgba(255,255,255,.7); }
+footer a { color:rgba(255,255,255,.8); }
+footer a:hover { color:var(--orange); }
+.footer-bottom { border-top:1px solid rgba(255,255,255,.13); margin-top:34px; padding-top:20px; color:rgba(255,255,255,.55); font-size:.9rem; }
+.contact-line { display:flex; gap:12px; align-items:flex-start; margin-bottom:12px; }
+.contact-line i { color:var(--orange); margin-top:5px; }
+@media (max-width: 767px) {
+ .hero { min-height:600px; padding-top:125px; background-position:58% center; }
+ .section-pad { padding:64px 0; }
+ .cta-band { padding:28px 22px; }
+}
